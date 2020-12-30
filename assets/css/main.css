@@ -3070,7 +3070,11 @@ input, select, textarea {
 	}
 
 /* Header */
-
+#para
+{
+	padding: 5em 5em 1em 5em ;
+	text-align: left;
+}
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
