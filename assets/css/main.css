@@ -169,6 +169,10 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+	#qn{
+		font-weight: bold;
+	}
+
 	strong, b {
 		font-weight: 400;
 	}
@@ -181,6 +185,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+		
 		p.content {
 			-moz-columns: 20em 2;
 			-webkit-columns: 20em 2;
@@ -192,6 +197,15 @@ input, select, textarea {
 			column-gap: 2em;
 			text-align: justify;
 		}
+
+		p.content2{
+			text-align: justify;
+		}
+
+		p.content3{
+			text-align:center;
+		}
+		
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -2374,7 +2388,7 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right{
 			max-width: 40%;
 		}
 
@@ -2392,6 +2406,13 @@ input, select, textarea {
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
+		}
+
+		.image.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;  
 		}
 
 		.image.fit {
